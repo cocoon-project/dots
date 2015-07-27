@@ -10,8 +10,6 @@ apps=(
   shimo
   1password
   alfred
-  dropbox
-  google-chrome
   qlcolorcode
   screenflick
   slack
@@ -19,31 +17,16 @@ apps=(
   appcleaner
   firefox
   hazel
-  qlmarkdown
-  seil
-  spotify
   vagrant
-  arq
   flash
   iterm2
   qlprettypatch
-  shiori
   sublime-text3
   virtualbox
-  atom
-  flux
-  mailbox
   qlstephen
-  sketch
-  tower
   vlc
-  cloudup
-  nvalt
   quicklook-json
-  skype
-  transmission
   apikitchen
-  mamp
 )
 
 # fonts
@@ -116,8 +99,8 @@ main() {
   brew cask install ${fonts[@]}
 
   # install atom plugins
-  echo "installing atom plugins..."
-  apm install ${atom[@]}
+  #echo "installing atom plugins..."
+  #apm install ${atom[@]}
 
   # link with alfred
   alfred

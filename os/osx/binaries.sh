@@ -32,7 +32,6 @@ binaries=(
   graphicsmagick
   boot2docker
   webkit2png
-  phantomjs
   rename
   zopfli
   ffmpeg

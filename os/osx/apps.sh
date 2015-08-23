@@ -10,7 +10,6 @@ apps=(
   1password
   alfred
   qlcolorcode
-  screenflick
   slack
   transmit
   appcleaner

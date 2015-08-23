@@ -19,6 +19,7 @@ apps=(
   qlprettypatch
   sublime-text3
   virtualbox
+  atom
   qlstephen
   vlc
   quicklook-json
@@ -94,8 +95,8 @@ main() {
   brew cask install ${fonts[@]}
 
   # install atom plugins
-  #echo "installing atom plugins..."
-  #apm install ${atom[@]}
+  echo "installing atom plugins..."
+  apm install ${atom[@]}
 
   # link with alfred
   alfred

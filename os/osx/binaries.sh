@@ -47,6 +47,7 @@ binaries=(
   hub
   fig
   go
+  redis
 )
 
 # Install the binaries

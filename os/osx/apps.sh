@@ -7,7 +7,6 @@ set -eu
 
 # Apps
 apps=(
-  shimo
   1password
   alfred
   qlcolorcode

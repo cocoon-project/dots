@@ -10,8 +10,6 @@ apps=(
   1password
   alfred
   qlcolorcode
-  slack
-  transmit
   appcleaner
   firefox
   hazel

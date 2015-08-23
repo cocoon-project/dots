@@ -22,7 +22,6 @@ apps=(
   qlstephen
   vlc
   quicklook-json
-  apikitchen
 )
 
 # fonts

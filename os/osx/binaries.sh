@@ -30,10 +30,6 @@ brew install homebrew/dupes/grep
 # Install other useful binaries
 binaries=(
   graphicsmagick
-  docker
-  docker-machine
-  docker-swarm
-  docker-compose
   webkit2png
   rename
   zopfli
@@ -48,7 +44,6 @@ binaries=(
   ack
   git
   hub
-  fig
   go
   redis
 )

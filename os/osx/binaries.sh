@@ -30,7 +30,10 @@ brew install homebrew/dupes/grep
 # Install other useful binaries
 binaries=(
   graphicsmagick
-  boot2docker
+  docker
+  docker-machine
+  docker-swarm
+  docker-compose
   webkit2png
   rename
   zopfli

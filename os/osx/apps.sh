@@ -8,7 +8,6 @@ set -eu
 # Apps
 apps=(
   1password
-  alfred
   qlcolorcode
   appcleaner
   firefox
@@ -21,8 +20,10 @@ apps=(
   virtualbox
   atom
   qlstephen
+  sketch
   vlc
   quicklook-json
+  sourcetree
 )
 
 # fonts
@@ -40,19 +41,14 @@ atom=(
   color-picker
   css-comb
   docblockr
-  easy-motion
   editor-stats
   emmet
-  fancy-new-file
   file-icons
   git-history
   highlight-selected
-  image-view
-  inc-dec-value
   key-peek
   language-jade
   linter
-  markdown-preview
   merge-conflicts
   neutron-ui
   npm-install
@@ -77,8 +73,9 @@ main() {
 
   # Install homebrew-cask
   echo "installing cask..."
-  brew tap phinze/homebrew-cask
-  brew install brew-cask
+  #brew tap phinze/homebrew-cask
+  #brew install brew-cask
+  brew install caskroom/cask/brew-cask
 
   # Tap alternative versions
   brew tap caskroom/versions
@@ -99,7 +96,7 @@ main() {
   apm install ${atom[@]}
 
   # link with alfred
-  alfred
+  #alfred
   cleanup
 }
 

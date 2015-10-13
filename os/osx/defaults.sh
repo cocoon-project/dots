@@ -313,7 +313,7 @@ defaults write com.apple.spotlight orderedItems -array \
 	
 echo ""
 echo "Load new settings before rebuilding the index"
-killall mds > /dev/null 2>&1
+#killall mds 
 
 echo ""
 echo "Make sure indexing is enabled for the main volume"
@@ -405,10 +405,10 @@ defaults write com.google.Chrome AppleEnableSwipeNavigateWithScrolls -bool false
 # Kill affected applications
 ###############################################################################
 
-for app in "Activity Monitor" "Address Book" "Calendar" "Contacts" "cfprefsd" \
-	"Dock" "Finder" "Google Chrome" "Google Chrome Canary" "Mail" "Messages" \
-	"Opera" "Safari" "SizeUp" "Spectacle" "SystemUIServer" "Terminal" \
-	"Transmission" "Twitter" "iCal"; do
-	killall "${app}" > /dev/null 2>&1
-done
+#for app in "Activity Monitor" "Address Book" "Calendar" "Contacts" "cfprefsd" \
+#	"Dock" "Finder" "Google Chrome" "Google Chrome Canary" "Mail" "Messages" \
+#	"Opera" "Safari" "SizeUp" "Spectacle" "SystemUIServer" "Terminal" \
+#	"Transmission" "Twitter" "iCal"; do
+#	killall "${app}" > /dev/null 2>&1
+#done
 echo "Done. Note that some of these changes require a logout/restart to take effect."

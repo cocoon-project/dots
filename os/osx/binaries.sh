@@ -44,7 +44,7 @@ binaries=(
   git
   hub
   go
-  android-platform-tools
+  android-sdk
   redis
 )
 
